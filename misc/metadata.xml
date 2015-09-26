@@ -1,0 +1,49 @@
+<dc:identifier id="pub-id">urn:uuid:614D1A8B-E767-4A10-923F-47364CD7E6CC</dc:identifier>
+<meta refines="#pub-id" property="identifier-type" scheme="xsd:string">uuid</meta>
+<dc:identifier id="isbn-id">urn:isbn:9780101010101</dc:identifier>
+<meta refines="#isbn-id" property="identifier-type" scheme="onix:codelist5">15</meta>
+<dc:title id="t1">Main Title</dc:title>
+<meta refines="#t1" property="title-type">main</meta>
+<meta refines="#t1" property="display-seq">1</meta>
+<dc:title id="t2">Or How I Found the Subtitle and What I Did When I Found It</dc:title>
+<meta refines="#t2" property="title-type">subtitle</meta>
+<meta refines="#t2" property="display-seq">2</meta>
+<dc:title id="t3">Writing Saga</dc:title>
+<meta refines="#t3" property="title-type">collection</meta>
+<meta refines="#t3" property="display-seq">3</meta>
+<dc:title id="t4">Volume 1</dc:title>
+<meta refines="#t4" property="title-type">volume</meta>
+<meta refines="#t4" property="display-seq">4</meta>
+<dc:title id="t5">First Edition</dc:title>
+<meta refines="#t5" property="title-type">edition</meta>
+<meta refines="#t5" property="display-seq">5</meta>
+<dc:title id="t6">Main Title: Or How I Found the Subtitle and What I Did When I Found It.  Writing Saga, Volume 1, First Edition.</dc:title>
+<meta refines="#t6" property="title-type">expanded</meta>
+<meta refines="#t6" property="display-seq">6</meta>
+<dc:language id="au">en-AU</dc:language>
+<meta refines="#au" property="display-seq">1</meta>
+<dc:language id="uk">en-UK</dc:language>
+<meta refines="#uk" property="display-seq">2</meta>
+<dc:language id="us">en-US</dc:language>
+<meta refines="#us" property="display-seq">3</meta>
+<meta property="dcterms:modified">2015-07-07T04:32:10Z</meta>
+<dc:creator id="creator">FN LN</dc:creator>
+<meta refines="#creator" property="role" scheme="marc:relators" id="role">aut</meta>
+<meta refines="#creator" property="file-as">LN, FN</meta>
+<dc:date>2015-01-01T01:23:45Z</dc:date>
+<dc:rights>Copyright © Full (initialed) Name, YYYY. All rights reserved.</dc:rights>
+<dc:coverage>Varies, depends on the nature of the beast and related rights.</dc:coverage>
+<dc:contributor id="dedicatee1">Author's Spouse</dc:contributor>
+<meta refines="#dedicatee1" property="role" scheme="marc:relators" id="role">dte</meta>
+<meta refines="#dedicatee1" property="display-seq">1</meta>
+<dc:contributor id="dedicatee2">Parents, pets or kids</dc:contributor>
+<meta refines="#dedicatee2" property="role" scheme="marc:relators" id="role">dte</meta>
+<meta refines="#dedicatee2" property="display-seq">2</meta>
+<dc:description>This should be a blurb.</dc:description>
+<dc:publisher id="publisher1">ACME Publishing</dc:publisher>
+<link rel="#publisher1" href="http://www.example.com/" />
+<dc:publisher id="publisher2">Widget Corporation</dc:publisher>
+<link rel="#publisher2" href="http://www.example.net/" />
+<dc:publisher id="publisher3">ACME Publishing, a division of the Widget Corporation</dc:publisher>
+<link rel="#publisher3" href="http://www.example.com/" />
+<dc:subject>keywords, tags, stuff, about, things</dc:subject>
