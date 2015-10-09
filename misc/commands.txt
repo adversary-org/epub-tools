@@ -1,3 +1,0 @@
-unoconv -f html <filename>.odt
-pandoc -f html -t html5 -o <newpath>/<filename>.html <oldpath>/<filename>.html
-pandoc -f html -t epub3 -o phaser.epub -S --epub-cover-image=../images/Anja_cover.jpg --epub-metadata=metadata.xml *.html
